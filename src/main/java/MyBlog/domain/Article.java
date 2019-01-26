@@ -18,6 +18,7 @@ public class Article implements Serializable{
 	private String content;
 	private int like;
 	private List<Comment> comments;
+	private int id;
 
 	public void setAuthor(String author) {this.author = author;}
 	public void setDate(Date date) {this.date = date;}
@@ -25,6 +26,7 @@ public class Article implements Serializable{
 	public void setContent(String content) {this.content = content;}
 	public void setLike(int like) {this.like = like;}
 	public void setComments(List<Comment> comments) {this.comments = comments;}
+	public void setId(int id) {this.id = id;}
 	
 	public String getAuthor() {return author;}
 	public Date getDate() {return date;}
@@ -32,4 +34,5 @@ public class Article implements Serializable{
 	public String getContent() {return content;}
 	public int getLike() {return like;}
 	public List<Comment> getComments(){return comments;}
+	public int getId() {return id;}
 }
