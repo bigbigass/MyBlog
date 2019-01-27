@@ -19,6 +19,7 @@ public class Article implements Serializable{
 	private int like;
 	private List<Comment> comments;
 	private int id;
+	private String imageName = "default";
 
 	public void setAuthor(String author) {this.author = author;}
 	public void setDate(Date date) {this.date = date;}
@@ -27,6 +28,7 @@ public class Article implements Serializable{
 	public void setLike(int like) {this.like = like;}
 	public void setComments(List<Comment> comments) {this.comments = comments;}
 	public void setId(int id) {this.id = id;}
+	public void setImageName(String name) {this.imageName = name;}
 	
 	public String getAuthor() {return author;}
 	public Date getDate() {return date;}
@@ -35,4 +37,5 @@ public class Article implements Serializable{
 	public int getLike() {return like;}
 	public List<Comment> getComments(){return comments;}
 	public int getId() {return id;}
+	public String getImageName() {return imageName;}
 }
