@@ -11,7 +11,7 @@
 <body>
 <%@include file="./jspf/Navigation.jspf" %>
 <div class="card">
-	<img src="image/default" alt="Avatar" width="100%" height="100%"/>
+	<img src="image/default" alt="Avatar" style="width:100%" height="250px"/>
 	<div class="container">
 		<h4><b>Title</b></h4>
 		<p>FotTest</p>

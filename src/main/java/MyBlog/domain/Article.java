@@ -17,6 +17,7 @@ public class Article implements Serializable{
 	private String title;
 	private String content;
 	private int like;
+	private long watch;
 	private List<Comment> comments;
 	private int id;
 	private String imageName = "default";
@@ -29,6 +30,7 @@ public class Article implements Serializable{
 	public void setComments(List<Comment> comments) {this.comments = comments;}
 	public void setId(int id) {this.id = id;}
 	public void setImageName(String name) {this.imageName = name;}
+	public void setWatch(long num) {this.watch = num;}
 	
 	public String getAuthor() {return author;}
 	public Date getDate() {return date;}
@@ -38,4 +40,5 @@ public class Article implements Serializable{
 	public List<Comment> getComments(){return comments;}
 	public int getId() {return id;}
 	public String getImageName() {return imageName;}
+	public long getWatch() {return watch;}
 }

@@ -1,3 +1,6 @@
+.bar{
+	margin-bottom:1cm;
+}
 .bar ul{
 	list-style-type: none;
 	margin: 0;
@@ -32,7 +35,6 @@
 	 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	    margin: auto;
    		transition: 0.3s;
-   		height: 30%;
     	width: 40%;
     	border-radius: 5px;
 }
