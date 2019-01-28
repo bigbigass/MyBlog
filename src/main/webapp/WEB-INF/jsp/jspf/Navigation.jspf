@@ -2,7 +2,7 @@
 <div class="bar">
 	<ul>
 		<li><a href="main">主页</a></li>
-		<li><a href="">文章</a></li>
+		<li><a href="article_list">文章</a></li>
 		<li><a href="">联系</a></li>
 		<li style="float:right"><a class="active" href="">关于</a></li>
 	</ul>

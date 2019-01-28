@@ -26,6 +26,12 @@ public class BlogController {
 		return "Main";
 	}
 	
+	@RequestMapping(value="/article_list")
+	public String articleList() {
+		return "ArticleList";
+	}
+	
+	
 	@RequestMapping(value="/image/{name}", method=RequestMethod.GET)
 	public void getImages(@PathVariable String name, HttpServletRequest request, 
 			HttpServletResponse response, @RequestHeader String referer)

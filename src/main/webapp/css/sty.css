@@ -1,5 +1,15 @@
+body{
+	margin:0px;
+}
+
+
 .bar{
-	margin-bottom:1cm;
+	margin-top: 0cm;
+  position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    z-index: 1000;
 }
 .bar ul{
 	list-style-type: none;
@@ -17,7 +27,7 @@
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 20px 16px;
 	text-decoration: none;
 }
 
@@ -35,19 +45,80 @@
 	 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	    margin: auto;
    		transition: 0.3s;
-    	width: 40%;
+    	width: 50%;
+    	height:30%;
     	border-radius: 5px;
+    	margin-bottom:0.3cm;
+    	background-color: #FFFFFF;
 }
 
 .card:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-img {
+.card img {
     border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 250px;
 }
 
 .container {
     padding: 2px 16px;
      max-width: 960px;
        margin: auto;
+}
+
+div.transbox
+{
+	padding:0px;
+   width: 100%;
+  height: 100%;
+ 
+  background-color: #000000;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox p
+{
+	text-align:center;
+ 	margin-top: 0cm;
+
+  color: #ffffff;
+  font-size:50px;
+}
+
+div.content
+{
+	margin-bottom: 0cm;
+		background-color: #ffffff;
+	width:100%;
+	height:100%;
+		
+		position:absolute;
+   		 
+}
+div.content img{
+	margin: 20px;
+	width:200px;
+	height:50%;
+	float:center;
+}
+
+div.distext{
+
+    width:40%;
+      margin: auto;
+
+}
+
+div.distext p.distext-nom{
+	padding: 15px;
+	   font-size:50px;
+    font-weight: 100;
+    font-family: inherit;
+}
+
+div.distext p.distext-min{
+		font-size:25px;
+    font-weight: 50;
+    font-family: inherit;
 }

@@ -8,14 +8,10 @@
 	<title>MainPage</title>
 	<style type="text/css">@import url("<c:url value="/css/sty.css"/>");</style>
 </head>
-<body>
+<body style=" background:url(image/bac03);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed;">
 <%@include file="./jspf/Navigation.jspf" %>
-<div class="card">
-	<img src="image/default" alt="Avatar" style="width:100%" height="250px"/>
-	<div class="container">
-		<h4><b>Title</b></h4>
-		<p>FotTest</p>
-	</div>
-</div>
 </body>
 </html>
